@@ -1,6 +1,7 @@
 {
 	"name": "luisfloat-cli",
-	"version": "0.0.0",
+	"version": "0.1.0",
+	"bin": "cli.js",
 	"engines": {
 		"node": ">=10"
 	},
