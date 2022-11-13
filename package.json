@@ -1,22 +1,37 @@
 {
-	"name": "luisfloat-cli",
-	"version": "0.1.0",
-	"bin": "cli.js",
-	"engines": {
-		"node": ">=10"
-	},
-	"files": [
-		"cli.js",
-		"ui.js"
-	],
-	"dependencies": {
-		"import-jsx": "^4.0.1",
-		"ink": "^3.2.0",
-		"lfds-tokens": "github:luisfloat/lfds-tokens",
-		"meow": "^9.0.0",
-		"react": "^17.0.2"
-	},
-	"devDependencies": {
-		"chalk": "^4.1.2"
-	}
+  "name": "luisfloat-cli",
+  "version": "0.1.0",
+  "description": "my home cli ui",
+  "keywords": [
+    "cli",
+    "home"
+  ],
+  "author": "Luis Float <contact@luisfloat.com> (https://luisfloat.com)",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisfloat/cli.git"
+  },
+  "homepage": "https://github.com/luisfloat/cli#readme",
+  "bugs": {
+    "url": "https://github.com/luisfloat/cli/issues"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "cli.js",
+    "ui.js"
+  ],
+  "dependencies": {
+    "import-jsx": "^4.0.1",
+    "ink": "^3.2.0",
+    "lfds-tokens": "github:luisfloat/lfds-tokens",
+    "meow": "^9.0.0",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2"
+  }
 }
